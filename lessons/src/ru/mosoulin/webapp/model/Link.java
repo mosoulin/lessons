@@ -28,6 +28,14 @@ public class Link {
         return super.equals(obj); // super - ссылка на родителя
     }*/
 
+    public String getName() {
+        return name;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
     public static Link empty() {
         return EMPTY;
     }

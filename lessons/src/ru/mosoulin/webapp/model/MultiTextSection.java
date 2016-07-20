@@ -5,9 +5,6 @@ import java.util.List;
 /**
  * Created by Admin on 19.07.16.
  */
-public class Organization {
-    private Link link;
-    private List<OrganizationPeriod> period;
-
-
+public class MultiTextSection extends Section {
+    private List<String> values;
 }
